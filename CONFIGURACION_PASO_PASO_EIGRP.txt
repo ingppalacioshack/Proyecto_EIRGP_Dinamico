@@ -126,6 +126,9 @@ CONFIGURAR PCS
 3. Ejemplo: IP Estático, Subnet, Gateway
 4. Si deseas que los Routers generen IPs DHCP se debe configurar cada uno ip dhcp pool nombrered, en otro proyecto lo explico claro.
 
+Para conocer por donde el EIGRP conoce a sus vecinos:
+#en
+#show ip eigrp neighbors
 
 
 ======================
@@ -133,4 +136,5 @@ Felicidades
 Ing. Pablo palacios
 
 ======================
+
 
