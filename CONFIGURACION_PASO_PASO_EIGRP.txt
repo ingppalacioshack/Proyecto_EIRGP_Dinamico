@@ -87,6 +87,7 @@ conf t
 router eigrp 10  ! No importa si usas 1, 10, etc.
  network 192.168.1.0 0.0.0.255 0.0.0.255  ! Utiliza la resta de la WildCard 255.255.255.255. menos tu CIDR /24 255.255.255.0 Resultado 0.0.0.255
  network 192.168.4.0 0.0.0.255 0.0.0.255
+ no auto-summary
 exit
 copy running-config startup-config
 exit
@@ -100,6 +101,7 @@ router eigrp 10
  network 192.168.2.0 0.0.0.255 0.0.0.255  ! Utiliza la resta de la WildCard 255.255.255.255. menos tu CIDR /24 255.255.255.0 Resultado 0.0.0.255
  network 192.168.4.0 0.0.0.255 0.0.0.255
  network 192.168.5.0 0.0.0.255 0.0.0.255
+ no auto-summary
 exit
 copy running-config startup-config
 exit
@@ -113,6 +115,7 @@ router eigrp 10
  network 192.168.3.0 0.0.0.255 0.0.0.255  ! Utiliza la resta de la WildCard 255.255.255.255. menos tu CIDR /24 255.255.255.0 Resultado 0.0.0.255
  network 192.168.4.0 0.0.0.255 0.0.0.255
  network 192.168.5.0 0.0.0.255 0.0.0.255
+ no auto-summary
 exit
 copy running-config startup-config
 exit
@@ -136,5 +139,6 @@ Felicidades
 Ing. Pablo palacios
 
 ======================
+
 
 
